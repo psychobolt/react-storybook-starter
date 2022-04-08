@@ -80,7 +80,10 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
+
+# General build ouput
 dist
+storybook-static
 
 # Gatsby files
 .cache/
@@ -102,3 +105,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

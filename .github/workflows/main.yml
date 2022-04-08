@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+      - master
+jobs:
+  bundle:
+    uses: ./.github/workflows/bundle.yml
+  deploy:
+    needs: bundle
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: bundles_${{ github.sha }}
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: storybook-static

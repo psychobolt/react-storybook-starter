@@ -1,0 +1,33 @@
+{
+  "name": "react-storybook-starter",
+  "type": "module",
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "@babel/core": "7.17.9",
+    "@mdx-js/react": "1.6.22",
+    "@storybook/addon-actions": "6.5.0-alpha.60",
+    "@storybook/addon-docs": "6.5.0-alpha.60",
+    "@storybook/addon-essentials": "6.5.0-alpha.60",
+    "@storybook/addon-interactions": "6.5.0-alpha.60",
+    "@storybook/addon-links": "6.5.0-alpha.60",
+    "@storybook/builder-webpack5": "6.5.0-alpha.60",
+    "@storybook/manager-webpack5": "6.5.0-alpha.60",
+    "@storybook/react": "6.5.0-alpha.60",
+    "@storybook/testing-library": "0.0.9",
+    "babel-loader": "8.2.4",
+    "eslint": "8.12.0",
+    "http-server": "14.1.0",
+    "jest": "27.5.1",
+    "jest-specific-snapshot": "4.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "require-from-string": "2.0.2",
+    "webpack": "5.72.0"
+  },
+  "scripts": {
+    "start": "yarn run storybook",
+    "start-static": "yarn run build-storybook && yarn http-server storybook-static",
+    "storybook": "yarn start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}

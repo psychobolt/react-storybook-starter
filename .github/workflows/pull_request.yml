@@ -1,0 +1,4 @@
+on: pull_request
+jobs:
+  bundle:
+    uses: ./.github/workflows/bundle.yml
