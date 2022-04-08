@@ -12486,6 +12486,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-storybook-starter@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "react-storybook-starter@workspace:."
+  dependencies:
+    "@babel/core": 7.17.9
+    "@mdx-js/react": 1.6.22
+    "@storybook/addon-actions": 6.5.0-alpha.60
+    "@storybook/addon-docs": 6.5.0-alpha.60
+    "@storybook/addon-essentials": 6.5.0-alpha.60
+    "@storybook/addon-interactions": 6.5.0-alpha.60
+    "@storybook/addon-links": 6.5.0-alpha.60
+    "@storybook/builder-webpack5": 6.5.0-alpha.60
+    "@storybook/manager-webpack5": 6.5.0-alpha.60
+    "@storybook/react": 6.5.0-alpha.60
+    "@storybook/testing-library": 0.0.9
+    babel-loader: 8.2.4
+    eslint: 8.12.0
+    http-server: 14.1.0
+    jest: 27.5.1
+    jest-specific-snapshot: 4.0.0
+    react: 18.0.0
+    react-dom: 18.0.0
+    require-from-string: 2.0.2
+    webpack: 5.72.0
+  languageName: unknown
+  linkType: soft
+
 "react@npm:*, react@npm:18.0.0":
   version: 18.0.0
   resolution: "react@npm:18.0.0"
@@ -13618,33 +13645,6 @@ __metadata:
   checksum: 9e760ea2a7f56eae47d5bafe507511b25ad983bba901e1e0c5f65713e631c15aafb8e031c658047af53c2008a5d21cb6c43f2383673b3493144e8e1ead5c8f91
   languageName: node
   linkType: hard
-
-"storybook-starter@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "storybook-starter@workspace:."
-  dependencies:
-    "@babel/core": 7.17.9
-    "@mdx-js/react": 1.6.22
-    "@storybook/addon-actions": 6.5.0-alpha.60
-    "@storybook/addon-docs": 6.5.0-alpha.60
-    "@storybook/addon-essentials": 6.5.0-alpha.60
-    "@storybook/addon-interactions": 6.5.0-alpha.60
-    "@storybook/addon-links": 6.5.0-alpha.60
-    "@storybook/builder-webpack5": 6.5.0-alpha.60
-    "@storybook/manager-webpack5": 6.5.0-alpha.60
-    "@storybook/react": 6.5.0-alpha.60
-    "@storybook/testing-library": 0.0.9
-    babel-loader: 8.2.4
-    eslint: 8.12.0
-    http-server: 14.1.0
-    jest: 27.5.1
-    jest-specific-snapshot: 4.0.0
-    react: 18.0.0
-    react-dom: 18.0.0
-    require-from-string: 2.0.2
-    webpack: 5.72.0
-  languageName: unknown
-  linkType: soft
 
 "stream-browserify@npm:^2.0.1":
   version: 2.0.2
