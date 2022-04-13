@@ -1,0 +1,17 @@
+on:
+  workflow_call:
+
+jobs:
+  lint:
+    name: "Lint Sources"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - run: yarn node ./bootstrap.js
+        shell: bash
+      - uses: actions/download-artifact@v3
+        with:
+          name: bundles_${{ github.sha }}
+      - run: yarn lint
+        shell: bash

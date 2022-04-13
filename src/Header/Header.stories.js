@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Header } from './Header.js';
+import Header from './index.js';
 
 export default {
   title: 'Example/Header',
@@ -11,7 +11,9 @@ export default {
   },
 };
 
-const Template = (args) => <Header {...args} />;
+function Template(args) {
+  return <Header {...args} />;
+}
 
 export const LoggedIn = Template.bind({});
 LoggedIn.args = {

@@ -14,8 +14,16 @@
     "@storybook/manager-webpack5": "6.4.21",
     "@storybook/react": "6.4.21",
     "@storybook/testing-library": "0.0.9",
+    "@yarnpkg/sdks": "3.0.0-rc.2",
     "babel-loader": "8.2.4",
-    "eslint": "8.13.0",
+    "concurrently": "7.1.0",
+    "eslint": "8.2.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-react": "7.29.4",
+    "eslint-plugin-react-hooks": "4.4.0",
+    "eslint-plugin-storybook": "0.5.8",
     "http-server": "14.1.0",
     "jest": "27.5.1",
     "jest-specific-snapshot": "4.0.0",
@@ -29,6 +37,8 @@
     "start": "yarn run storybook",
     "start-static": "yarn run build-storybook && yarn http-server storybook-static",
     "storybook": "yarn start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lint": "yarn concurrently 'npm:lint:js'",
+    "lint:js": "yarn eslint \"**/*.?(c|m)js\""
   }
 }

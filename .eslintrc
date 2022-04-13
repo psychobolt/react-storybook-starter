@@ -1,0 +1,8 @@
+{
+  "extends": ["airbnb", "airbnb/hooks", "plugin:storybook/recommended"],
+  "rules": {
+    "import/extensions": ["error", "ignorePackages"],
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }]
+  }
+}
