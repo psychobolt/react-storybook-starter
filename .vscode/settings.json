@@ -4,13 +4,20 @@
     "**/.pnp.*": true
   },
   "eslint.options": {
-    "extensions": [".js", ".jsx", ".md", ".mdx"]
+    "extensions": [
+      ".js",
+      ".jsx",
+      ".md",
+      ".mdx"
+    ]
   },
+  "javascript.validate.enable": false,
   "eslint.validate": [
     "markdown",
     "mdx",
     "javascript",
-    "javascriptreact",
+    "javascriptreact"
   ],
-  "eslint.nodePath": ".yarn/sdks"
+  "eslint.nodePath": ".yarn/sdks",
+  "flow.pathToFlow": "${workspaceFolder}/.yarn/sdks/.bin/flow"
 }

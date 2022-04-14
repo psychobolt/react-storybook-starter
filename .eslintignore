@@ -1,3 +1,4 @@
+!.storybook
 /.yarn
 /storybook-static
 .pnp.cjs

@@ -2,10 +2,15 @@
   "extends": ["airbnb", "airbnb/hooks", "plugin:storybook/recommended", "plugin:mdx/recommended"],
   "rules": {
     "import/extensions": ["error", "ignorePackages"],
+    "import/prefer-default-export": 0,
     "react/jsx-props-no-spreading": 0,
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx", ".mdx"] }]
   },
   "overrides": [
+    {
+      "files": ["*.js", "*.jsx"],
+      "parser": "@babel/eslint-parser"
+    },
     {
       "files": ["*.mdx"],
       "rules": {

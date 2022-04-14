@@ -1,12 +1,23 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+// @flow
+import * as React from 'react';
 
 import Button from '../Button/index.js';
 import './header.css';
 
+type User = {
+  name: string
+};
+
+type Props = {
+  user: null | User,
+  onLogin: any,
+  onLogout: any,
+  onCreateAccount: any
+};
+
 function Header({
-  user, onLogin, onLogout, onCreateAccount,
-}) {
+  user = null, onLogin, onLogout, onCreateAccount,
+}: Props): React.Node {
   return (
     <header>
       <div className="wrapper">
@@ -50,18 +61,5 @@ function Header({
     </header>
   );
 }
-
-Header.propTypes = {
-  user: PropTypes.shape({
-    name: PropTypes.string,
-  }),
-  onLogin: PropTypes.func.isRequired,
-  onLogout: PropTypes.func.isRequired,
-  onCreateAccount: PropTypes.func.isRequired,
-};
-
-Header.defaultProps = {
-  user: null,
-};
 
 export default Header;
