@@ -1,6 +1,7 @@
 !.storybook
 /.yarn
 /flow-deps-modules
+shared/flow-typed/npm
 /storybook-static
 .pnp.cjs
 .pnp.loader.mjs
