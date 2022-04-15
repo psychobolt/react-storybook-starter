@@ -1,11 +1,18 @@
 {
-  "extends": ["airbnb", "airbnb/hooks", "plugin:storybook/recommended", "plugin:mdx/recommended"],
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:storybook/recommended",
+    "plugin:flowtype/recommended",
+    "plugin:mdx/recommended"
+  ],
   "rules": {
     "arrow-parens": ["error", "as-needed"],
     "import/extensions": ["error", "ignorePackages"],
     "import/prefer-default-export": 0,
     "react/jsx-props-no-spreading": 0,
-    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx", ".mdx"] }]
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx", ".mdx"] }],
+    "no-restricted-exports": 0
   },
   "overrides": [
     {

@@ -40,7 +40,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-flow-deps-modules/
+flow-deps-modules
 shared/flow-typed/npm/
 
 # TypeScript v1 declaration files
