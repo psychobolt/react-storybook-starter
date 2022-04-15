@@ -1,4 +1,5 @@
 [options]
+module.system.node.resolve_dirname=flow-deps-modules
 include_warnings=true
 
 [lints]

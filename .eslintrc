@@ -1,6 +1,7 @@
 {
   "extends": ["airbnb", "airbnb/hooks", "plugin:storybook/recommended", "plugin:mdx/recommended"],
   "rules": {
+    "arrow-parens": ["error", "as-needed"],
     "import/extensions": ["error", "ignorePackages"],
     "import/prefer-default-export": 0,
     "react/jsx-props-no-spreading": 0,
@@ -8,12 +9,19 @@
   },
   "overrides": [
     {
-      "files": ["*.js", "*.jsx"],
-      "parser": "@babel/eslint-parser"
+      "files": ["*.?(c)js", "*.jsx"],
+      "parser": "@babel/eslint-parser",
+      "parserOptions": {
+        "babelOptions": {
+          "configFile": "./.babelrc.json"
+        }
+      },
+      "plugins": ["flowtype"]
     },
     {
-      "files": ["*.mdx"],
+      "files": ["*.md?(x)"],
       "rules": {
+        "max-len": 0,
         "semi": 0,
         "react/jsx-indent": 0
       }

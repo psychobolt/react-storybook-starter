@@ -63,6 +63,7 @@
         "absoluteImports": "core-js",
         "version": "3.21.1"
       }
-    ]
+    ],
+    "babel-plugin-named-exports-order"
   ]
 }
