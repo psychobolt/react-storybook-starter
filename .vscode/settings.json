@@ -3,6 +3,7 @@
     "**/.yarn": true,
     "**/.pnp.*": true
   },
+  "files.eol": "\n",
   "eslint.options": {
     "extensions": [
       ".js",

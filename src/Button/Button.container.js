@@ -7,7 +7,7 @@ type Props = {|
   size?: 'small' | 'medium' | 'large',
   backgroundColor?: string,
   label: string,
-  onClick?: SyntheticMouseEvent<HTMLButtonElement> => any,
+  onClick?: SyntheticMouseEvent<HTMLButtonElement> => void,
 |}
 
 /**
