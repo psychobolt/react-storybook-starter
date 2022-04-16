@@ -3,5 +3,11 @@
     "config:base"
   ],
   "automerge": true,
-  "automergeType": "branch"
+  "automergeType": "branch",
+  "packageRules": [
+    {
+      "matchPackageNames": ["flow-bin", "eslint"],
+      "automerge": false
+    }
+  ]
 }
