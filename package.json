@@ -77,7 +77,7 @@
     "start-static": "yarn run build-storybook && yarn http-server storybook-static",
     "storybook": "yarn start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "lint": "yarn concurrently 'npm:lint:js' 'npm:lint:mdx' 'npm:lint:md' 'npm:lint:css",
+    "lint": "yarn concurrently 'npm:lint:js' 'npm:lint:mdx' 'npm:lint:md' 'npm:lint:css'",
     "lint:js": "yarn eslint \"**/*.?(c|m)js\"",
     "lint:md": "yarn eslint **/*.md",
     "lint:mdx": "yarn eslint **/*.mdx",
