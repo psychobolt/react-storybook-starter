@@ -6,9 +6,10 @@ jobs:
   bundle:
     uses: ./.github/workflows/bundle.yml
   test:
+    needs: bundle
     uses: ./.github/workflows/test.yml
   deploy:
-    needs: [bundle, test]
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/download-artifact@v3

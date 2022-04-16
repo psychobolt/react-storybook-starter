@@ -11,6 +11,8 @@ Boilerplate for building a [React](https://reactjs.org/) [Storybook](https://sto
 - [ES Module](https://nodejs.org/api/esm.html) system support
 - [styled-components](https://www.styled-components.com/) with [default](https://www.styled-components.com/docs/tooling#stylelint) [stylelint](https://stylelint.io/) support
 - Type checking with [Flow](https://flow.org)
+- Test Automation
+    - Visual testing with [Chromatic](https://www.chromatic.com/)
 - JS rule style checking with [ESLint](http://eslint.org/) using [AirBnb config](https://www.npmjs.com/package/eslint-config-airbnb) and plugins:
     - [Storybook](https://www.npmjs.com/package/eslint-plugin-storybook)
     - [MDX](https://www.npmjs.com/package/eslint-plugin-mdx)

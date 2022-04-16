@@ -16,3 +16,16 @@ jobs:
         shell: bash
       - run: yarn lint
         shell: bash
+  chromatic:
+    name: "Run Visual Tests"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: bundles_${{ github.sha }}
+          path: storybook-static
+      - uses: chromaui/action@v1
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          storybookBuildDir: storybook-static
+
