@@ -1,0 +1,10 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-styled-components"],
+  "rules": {
+    "color-function-notation": "legacy",
+    "value-keyword-case": ["lower", { "ignoreKeywords": ["dummyValue"] }],
+    "keyframes-name-pattern": "^((key-frame)|([a-z][a-z0-9]*)(-[a-z0-9]+)*)$"
+  },
+  "files": ["./src/**/*.js"]
+}

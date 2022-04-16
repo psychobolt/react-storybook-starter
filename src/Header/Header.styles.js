@@ -1,8 +1,8 @@
 import { css } from 'styled-components';
 
 export const wrapper = css`
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 10%);
   padding: 15px 20px;
   display: flex;
   align-items: center;

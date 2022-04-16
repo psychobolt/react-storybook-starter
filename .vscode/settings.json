@@ -12,6 +12,9 @@
       ".mdx"
     ]
   },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
   "javascript.validate.enable": false,
   "eslint.validate": [
     "markdown",
@@ -20,5 +23,9 @@
     "javascriptreact"
   ],
   "eslint.nodePath": ".yarn/sdks",
+  "stylelint.validate": [
+    "javascript"
+  ],
+  "stylelint.configFile": "./.stylelintrc.json",
   "flow.pathToFlow": "${workspaceFolder}/.yarn/sdks/.bin/flow"
 }

@@ -16,14 +16,13 @@ const variants = {
 };
 
 export default css`
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
   border-radius: 3em;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
-
   ${({ primary }) => (primary
     ? css`
       color: white;
@@ -37,6 +36,5 @@ export default css`
   )}
 
   ${({ size }) => variants[size]}
-
   ${({ backgroundColor }) => (backgroundColor ? `background-color: ${backgroundColor}` : '')}
 `;

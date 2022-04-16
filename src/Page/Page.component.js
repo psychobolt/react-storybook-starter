@@ -4,19 +4,33 @@ import styled from 'styled-components';
 import Header from '../Header/index.js';
 import * as styles from './Page.styles.js';
 
-const Section = styled.section`${styles.section}`;
+const Section = styled.section`
+  ${styles.section}
+`;
 
-const H2 = styled.h2`${styles.h2}`;
+const H2 = styled.h2`
+  ${styles.h2}
+`;
 
-const P = styled.p`${styles.p}`;
+const P = styled.p`
+  ${styles.p}
+`;
 
-const Ul = styled.ul`${styles.ul}`;
+const Ul = styled.ul`
+  ${styles.ul}
+`;
 
-const Tip = styled.span`${styles.tip}`;
+const Tip = styled.span`
+  ${styles.tip}
+`;
 
-const TipWrapper = styled.div`${styles.tipWrapper}`;
+const TipWrapper = styled.div`
+  ${styles.tipWrapper}
+`;
 
-const Svg = styled.svg`${styles.svg}`;
+const Svg = styled.svg`
+  ${styles.svg}
+`;
 
 export default function Page() {
   const [user, setUser] = React.useState();

@@ -5,13 +5,21 @@ import styled from 'styled-components';
 import Button from '../Button/index.js';
 import * as styles from './Header.styles.js';
 
-const Wrapper = styled.div`${styles.wrapper}`;
+const Wrapper = styled.div`
+  ${styles.wrapper}
+`;
 
-const Svg = styled.svg`${styles.svg}`;
+const Svg = styled.svg`
+  ${styles.svg}
+`;
 
-const H1 = styled.h1`${styles.h1}`;
+const H1 = styled.h1`
+  ${styles.h1}
+`;
 
-const Welcome = styled.span`${styles.welcome}`;
+const Welcome = styled.span`
+  ${styles.welcome}
+`;
 
 type User = {
   name: string
