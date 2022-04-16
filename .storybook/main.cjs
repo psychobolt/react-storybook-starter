@@ -1,5 +1,6 @@
 module.exports = {
   stories: [
+    '../src/README.mdx',
     '../src/**/*.stories.mdx',
     '../src/**/*.stories.js',
   ],
@@ -15,4 +16,26 @@ module.exports = {
   features: {
     babelModeV7: true,
   },
+  // See https://github.com/storybookjs/storybook/blob/master/addons/docs/src/frameworks/common/preset.ts, to configure
+  webpackFinal: config => ({
+    ...config,
+    module: {
+      ...config.module,
+      rules: [
+        ...config.module.rules.map(rule => {
+          const { test, exclude } = rule;
+          if (test.test('.md')) {
+            return {};
+          }
+          if (exclude && exclude.test('.stories.mdx')) {
+            return { ...rule, test: /\.md$/ };
+          }
+          if (test.test('.stories.mdx')) {
+            return { ...rule, test: /\.mdx$/ };
+          }
+          return rule;
+        }),
+      ],
+    },
+  }),
 };
