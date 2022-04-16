@@ -14139,7 +14139,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-scss@npm:4.0.3, postcss-scss@npm:^4.0.2":
+"postcss-scss@npm:^4.0.2":
   version: 4.0.3
   resolution: "postcss-scss@npm:4.0.3"
   peerDependencies:
@@ -14165,7 +14165,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.12, postcss@npm:^8.2.15, postcss@npm:^8.4.12":
+"postcss@npm:*, postcss@npm:^8.2.15, postcss@npm:^8.4.12":
   version: 8.4.12
   resolution: "postcss@npm:8.4.12"
   dependencies:
@@ -14770,8 +14770,6 @@ __metadata:
     http-server: 14.1.0
     jest: 27.5.1
     jest-specific-snapshot: 4.0.0
-    postcss: 8.4.12
-    postcss-scss: 4.0.3
     react: 18.0.0
     react-dom: 18.0.0
     react-is: 18.0.0

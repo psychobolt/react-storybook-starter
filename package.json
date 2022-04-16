@@ -61,8 +61,6 @@
     "http-server": "14.1.0",
     "jest": "27.5.1",
     "jest-specific-snapshot": "4.0.0",
-    "postcss": "8.4.12",
-    "postcss-scss": "4.0.3",
     "react-is": "18.0.0",
     "require-from-string": "2.0.2",
     "rimraf": "3.0.2",

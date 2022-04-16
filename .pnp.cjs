@@ -91,8 +91,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["http-server", "npm:14.1.0"],\
             ["jest", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:27.5.1"],\
             ["jest-specific-snapshot", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:4.0.0"],\
-            ["postcss", "npm:8.4.12"],\
-            ["postcss-scss", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:4.0.3"],\
             ["react", "npm:18.0.0"],\
             ["react-dom", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:18.0.0"],\
             ["react-is", "npm:18.0.0"],\
@@ -18280,25 +18278,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:4.0.3", {\
-          "packageLocation": "./.yarn/__virtual__/postcss-scss-virtual-706620b852/0/cache/postcss-scss-npm-4.0.3-ebb887d5e1-d11110376c.zip/node_modules/postcss-scss/",\
-          "packageDependencies": [\
-            ["postcss-scss", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:4.0.3"],\
-            ["@types/postcss", null],\
-            ["postcss", "npm:8.4.12"]\
-          ],\
-          "packagePeers": [\
-            "@types/postcss",\
-            "postcss"\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["virtual:c4aa68a5515f8e2319c5091dd4a7b3ae27d2c89f3a37983b50646e25490af838f66f55b61e1f7fb264a1521911086236be1e18b7e219b81a537f636c002b4b72#npm:4.0.3", {\
           "packageLocation": "./.yarn/__virtual__/postcss-scss-virtual-8f9a950795/0/cache/postcss-scss-npm-4.0.3-ebb887d5e1-d11110376c.zip/node_modules/postcss-scss/",\
           "packageDependencies": [\
             ["postcss-scss", "virtual:c4aa68a5515f8e2319c5091dd4a7b3ae27d2c89f3a37983b50646e25490af838f66f55b61e1f7fb264a1521911086236be1e18b7e219b81a537f636c002b4b72#npm:4.0.3"],\
             ["@types/postcss", null],\
-            ["postcss", null]\
+            ["postcss", "npm:8.4.12"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -19100,8 +19085,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["http-server", "npm:14.1.0"],\
             ["jest", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:27.5.1"],\
             ["jest-specific-snapshot", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:4.0.0"],\
-            ["postcss", "npm:8.4.12"],\
-            ["postcss-scss", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:4.0.3"],\
             ["react", "npm:18.0.0"],\
             ["react-dom", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:18.0.0"],\
             ["react-is", "npm:18.0.0"],\
@@ -20972,6 +20955,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["stylelint-config-recommended-scss", "virtual:73603b6f2a2f0fb80a6474291f14fcfd97a7fe37885f3ad81b2a1f7dff00200ea1b91d4e24d475c6061c44adde27b5ff0dd3b8230dedbf6857f583c0399b4b4e#npm:5.0.2"],\
             ["@types/stylelint", null],\
+            ["postcss", "npm:8.4.12"],\
             ["postcss-scss", "virtual:c4aa68a5515f8e2319c5091dd4a7b3ae27d2c89f3a37983b50646e25490af838f66f55b61e1f7fb264a1521911086236be1e18b7e219b81a537f636c002b4b72#npm:4.0.3"],\
             ["stylelint", "npm:14.6.1"],\
             ["stylelint-config-recommended", "virtual:c4aa68a5515f8e2319c5091dd4a7b3ae27d2c89f3a37983b50646e25490af838f66f55b61e1f7fb264a1521911086236be1e18b7e219b81a537f636c002b4b72#npm:6.0.0"],\
