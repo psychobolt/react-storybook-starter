@@ -17,6 +17,7 @@ Boilerplate for building a [React](https://reactjs.org/) [Storybook](https://sto
     - Run component and story tests with [Jest](https://jestjs.io/) and included libraries:
         - [React Testing Library](https://testing-library.com/docs/react-testing-library)
         - [@storybook/testing-react](https://www.npmjs.com/package/testing-react)
+    - Code Coverage reporting with [Codecov](https://codecov.io/)
 - JS rule style checking with [ESLint](http://eslint.org/) using [AirBnb config](https://www.npmjs.com/package/eslint-config-airbnb) and plugins:
     - [Storybook](https://www.npmjs.com/package/eslint-plugin-storybook)
     - [MDX](https://www.npmjs.com/package/eslint-plugin-mdx)

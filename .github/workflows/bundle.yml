@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
       - run: yarn build-storybook
         shell: bash
       - uses: actions/upload-artifact@v3
