@@ -5,6 +5,10 @@
 1. Install the latest [Node JS](https://nodejs.org/) and [Yarn Package Manager](https://yarnpkg.com/)
 2. Run `yarn install` command in the project directory.
 
+### Chromatic
+
+If you cloned/forked this repo, the CI will require you to [configure GitHub secret](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) `CHROMATIC_PROJECT_TOKEN`. Get a token at [Chromatic](https://www.chromatic.com/start).
+
 ## Local Development
 
 ```sh
