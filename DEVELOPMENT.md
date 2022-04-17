@@ -16,6 +16,15 @@ yarn start # Run storybook
 yarn start-static # Build storybook and serve the dist
 ```
 
+### Testing
+
+```sh
+yarn test # Run unit tests with Jest
+yarn test --coverage # Generate code coverage after running tests
+```
+
+See Storybook's [testing guide](https://storybook.js.org/docs/react/writing-tests/introduction) for creating tests.
+
 ## Including NPM packages
 
 ```sh
