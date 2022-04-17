@@ -13,6 +13,10 @@ Boilerplate for building a [React](https://reactjs.org/) [Storybook](https://sto
 - Type checking with [Flow](https://flow.org)
 - Test Automation
     - Visual testing with [Chromatic](https://www.chromatic.com/)
+    - Interactive testing with [@storybook/addon-interactions](https://www.npmjs.com/package/@storybook/addon-interactions)
+    - Run component and story tests with [Jest](https://jestjs.io/) and included libraries:
+        - [React Testing Library](https://testing-library.com/docs/react-testing-library)
+        - [@storybook/testing-react](https://www.npmjs.com/package/testing-react)
 - JS rule style checking with [ESLint](http://eslint.org/) using [AirBnb config](https://www.npmjs.com/package/eslint-config-airbnb) and plugins:
     - [Storybook](https://www.npmjs.com/package/eslint-plugin-storybook)
     - [MDX](https://www.npmjs.com/package/eslint-plugin-mdx)
