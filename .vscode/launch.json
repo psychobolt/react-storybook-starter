@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "yarn",
+      "stopOnEntry": false,
+      "args": [
+        "--runInBand",
+        "--no-cache"
+      ],
+      "cwd": "${workspaceRoot}",
+      "runtimeArgs": [
+        "test",
+      ],
+      "console": "integratedTerminal",
+      "sourceMaps": true,
+      "env": {
+        "NODE_OPTIONS": "--conditions=development ",
+      },
+    }
+  ]
+}
