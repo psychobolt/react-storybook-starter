@@ -10,6 +10,7 @@
     "arrow-parens": ["error", "as-needed"],
     "import/extensions": ["error", "ignorePackages"],
     "import/prefer-default-export": 0,
+    "import/no-duplicates": ["error", {"considerQueryString": true}],
     "import/no-webpack-loader-syntax": 0,
     "react/jsx-props-no-spreading": 0,
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx", ".mdx"] }],
