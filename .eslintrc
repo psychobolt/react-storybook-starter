@@ -10,9 +10,11 @@
     "arrow-parens": ["error", "as-needed"],
     "import/extensions": ["error", "ignorePackages"],
     "import/prefer-default-export": 0,
+    "import/no-webpack-loader-syntax": 0,
     "react/jsx-props-no-spreading": 0,
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx", ".mdx"] }],
-    "no-restricted-exports": 0
+    "no-restricted-exports": 0,
+    "yoda": ["error", "never", { "exceptRange": true }]
   },
   "overrides": [
     {
@@ -26,7 +28,14 @@
       "plugins": ["flowtype"]
     },
     {
-      "files": ["**/__tests__/**/*.js"],
+      "files": ["*.es3.cjs"],
+      "rules": {
+        "no-param-reassign": 0,
+        "no-var": 0
+      }
+    },
+    {
+      "files": ["**/__tests__/**/*.js", "*.test.js"],
       "plugins": ["jest"],
       "env": {
         "jest/globals": true
@@ -40,5 +49,12 @@
         "react/jsx-indent": 0
       }
     }
-  ]
+  ],
+  "settings": {
+    "import/resolver": {
+        "webpack": {
+            "config": "./.storybook/webpack.config.cjs"
+        }
+    }
+  }
 }

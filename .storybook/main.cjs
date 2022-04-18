@@ -1,3 +1,5 @@
+const webpackConfig = require('./webpack.config.cjs');
+
 module.exports = {
   stories: [
     '../src/README.mdx',
@@ -19,8 +21,10 @@ module.exports = {
   // See https://github.com/storybookjs/storybook/blob/master/addons/docs/src/frameworks/common/preset.ts, to configure
   webpackFinal: config => ({
     ...config,
+    ...webpackConfig,
     module: {
       ...config.module,
+      ...webpackConfig.module,
       rules: [
         ...config.module.rules.map(rule => {
           const { test, exclude } = rule;
@@ -33,8 +37,15 @@ module.exports = {
           if (test.test('.stories.mdx')) {
             return { ...rule, test: /\.mdx$/ };
           }
+          if (test.test('.js')) {
+            return {
+              ...rule,
+              resourceQuery: { not: [/raw/] },
+            };
+          }
           return rule;
         }),
+        ...webpackConfig.module.rules,
       ],
     },
   }),

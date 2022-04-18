@@ -22,6 +22,7 @@ Boilerplate for building a [React](https://reactjs.org/) [Storybook](https://sto
     - [Storybook](https://www.npmjs.com/package/eslint-plugin-storybook)
     - [MDX](https://www.npmjs.com/package/eslint-plugin-mdx)
     - [Flowtype](https://www.npmjs.com/package/eslint-plugin-flowtype)
+    - [Webpack Resolver](https://www.npmjs.com/package/eslint-import-resolver-webpack)
 - Continuous integration with [GitHub Actions](https://github.com/features/actions)
 
 ## Development Guide
