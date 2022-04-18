@@ -3,8 +3,7 @@
     "airbnb",
     "airbnb/hooks",
     "plugin:storybook/recommended",
-    "plugin:flowtype/recommended",
-    "plugin:mdx/recommended"
+    "plugin:flowtype/recommended"
   ],
   "rules": {
     "arrow-parens": ["error", "as-needed"],
@@ -23,13 +22,20 @@
           "configFile": "./babel.config.cjs"
         }
       },
-      "plugins": ["flowtype", "jest"],
+      "plugins": ["flowtype"]
+    },
+    {
+      "files": ["**/__tests__/**/*.js"],
+      "plugins": ["jest"],
       "env": {
         "jest/globals": true
       }
     },
     {
       "files": ["*.md?(x)"],
+      "extends": [
+        "plugin:mdx/recommended"
+      ],
       "rules": {
         "max-len": 0,
         "semi": 0,
