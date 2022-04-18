@@ -3,7 +3,8 @@
     "airbnb",
     "airbnb/hooks",
     "plugin:storybook/recommended",
-    "plugin:flowtype/recommended"
+    "plugin:flowtype/recommended",
+    "plugin:mdx/recommended"
   ],
   "rules": {
     "arrow-parens": ["error", "as-needed"],
@@ -33,9 +34,6 @@
     },
     {
       "files": ["*.md?(x)"],
-      "extends": [
-        "plugin:mdx/recommended"
-      ],
       "rules": {
         "max-len": 0,
         "semi": 0,
