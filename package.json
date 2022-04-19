@@ -40,7 +40,7 @@
     "@storybook/manager-webpack5": "6.5.0-alpha.62",
     "@storybook/preview-web": "6.5.0-alpha.62",
     "@storybook/react": "6.5.0-alpha.62",
-    "@storybook/testing-library": "0.0.9",
+    "@storybook/testing-library": "0.0.10",
     "@storybook/testing-react": "1.2.4",
     "@testing-library/react": "13.1.1",
     "@yarnpkg/sdks": "3.0.0-rc.2",
