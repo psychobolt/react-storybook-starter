@@ -5584,7 +5584,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-loader@npm:8.2.4, babel-loader@npm:^8.0.0":
+"babel-loader@npm:8.2.5":
+  version: 8.2.5
+  resolution: "babel-loader@npm:8.2.5"
+  dependencies:
+    find-cache-dir: ^3.3.1
+    loader-utils: ^2.0.0
+    make-dir: ^3.1.0
+    schema-utils: ^2.6.5
+  peerDependencies:
+    "@babel/core": ^7.0.0
+    webpack: ">=2"
+  checksum: a6605557885eabbc3250412405f2c63ca87287a95a439c643fdb47d5ea3d5326f72e43ab97be070316998cb685d5dfbc70927ce1abe8be7a6a4f5919287773fb
+  languageName: node
+  linkType: hard
+
+"babel-loader@npm:^8.0.0":
   version: 8.2.4
   resolution: "babel-loader@npm:8.2.4"
   dependencies:
@@ -14799,7 +14814,7 @@ __metadata:
     "@testing-library/react": 13.1.1
     "@yarnpkg/sdks": 3.0.0-rc.2
     app-root-path: 3.0.0
-    babel-loader: 8.2.4
+    babel-loader: 8.2.5
     babel-plugin-macros: 3.1.0
     babel-plugin-module-resolver: 4.1.0
     babel-plugin-named-exports-order: 0.0.2

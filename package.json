@@ -45,7 +45,7 @@
     "@testing-library/react": "13.1.1",
     "@yarnpkg/sdks": "3.0.0-rc.2",
     "app-root-path": "3.0.0",
-    "babel-loader": "8.2.4",
+    "babel-loader": "8.2.5",
     "babel-plugin-macros": "3.1.0",
     "babel-plugin-module-resolver": "4.1.0",
     "babel-plugin-named-exports-order": "0.0.2",
