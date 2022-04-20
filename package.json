@@ -51,7 +51,7 @@
     "babel-plugin-named-exports-order": "0.0.2",
     "babel-plugin-polyfill-corejs3": "0.5.2",
     "concurrently": "7.1.0",
-    "core-js": "3.22.0",
+    "core-js": "3.22.1",
     "cross-env": "7.0.3",
     "cross-spawn": "7.0.3",
     "eslint": "8.13.0",

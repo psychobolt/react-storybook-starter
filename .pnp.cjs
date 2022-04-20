@@ -81,7 +81,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-named-exports-order", "npm:0.0.2"],\
             ["babel-plugin-polyfill-corejs3", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:0.5.2"],\
             ["concurrently", "npm:7.1.0"],\
-            ["core-js", "npm:3.22.0"],\
+            ["core-js", "npm:3.22.1"],\
             ["cross-env", "npm:7.0.3"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["eslint", "npm:8.13.0"],\
@@ -10173,10 +10173,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:3.22.0", {\
-          "packageLocation": "./.yarn/cache/core-js-npm-3.22.0-9a29e3a96f-88ac28dfb8.zip/node_modules/core-js/",\
+        ["npm:3.22.1", {\
+          "packageLocation": "./.yarn/cache/core-js-npm-3.22.1-ea94af2017-04f5e97b06.zip/node_modules/core-js/",\
           "packageDependencies": [\
-            ["core-js", "npm:3.22.0"]\
+            ["core-js", "npm:3.22.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19221,7 +19221,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-named-exports-order", "npm:0.0.2"],\
             ["babel-plugin-polyfill-corejs3", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:0.5.2"],\
             ["concurrently", "npm:7.1.0"],\
-            ["core-js", "npm:3.22.0"],\
+            ["core-js", "npm:3.22.1"],\
             ["cross-env", "npm:7.0.3"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["eslint", "npm:8.13.0"],\
