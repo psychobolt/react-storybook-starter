@@ -32,7 +32,7 @@ module.exports = {
             return {};
           }
           if (exclude && exclude.test('.stories.mdx')) {
-            return { ...rule, test: /\.md$/ };
+            return { ...rule, test: /\.md$/, resourceQuery: { not: [/raw/] } };
           }
           if (test.test('.stories.mdx')) {
             return { ...rule, test: /\.mdx$/ };
