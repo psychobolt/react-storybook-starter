@@ -3,7 +3,7 @@
   "type": "module",
   "packageManager": "yarn@3.2.0",
   "devDependencies": {
-    "@babel/core": "7.17.9",
+    "@babel/core": "7.17.10",
     "@babel/eslint-parser": "7.17.0",
     "@babel/plugin-proposal-class-properties": "7.16.7",
     "@babel/plugin-proposal-decorators": "7.17.9",
@@ -24,7 +24,7 @@
     "@babel/plugin-transform-react-jsx": "7.17.3",
     "@babel/plugin-transform-shorthand-properties": "7.16.7",
     "@babel/plugin-transform-spread": "7.16.7",
-    "@babel/preset-env": "7.16.11",
+    "@babel/preset-env": "7.17.10",
     "@babel/preset-flow": "7.16.7",
     "@babel/preset-react": "7.16.7",
     "@mdx-js/react": "1.6.22",
