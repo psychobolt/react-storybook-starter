@@ -8,7 +8,7 @@
   ],
   "rules": {
     "arrow-parens": ["error", "as-needed"],
-    "func-names": ["error", { "generators": "as-needed" }],
+    "func-names": ["error", "as-needed"],
     "import/extensions": ["error", "ignorePackages"],
     "import/prefer-default-export": 0,
     "import/no-duplicates": ["error", {"considerQueryString": true}],
