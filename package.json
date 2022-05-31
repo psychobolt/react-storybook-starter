@@ -67,7 +67,7 @@
     "eslint-plugin-storybook": "0.5.12",
     "flow-bin": "0.176.2",
     "flow-typed": "3.7.0",
-    "http-server": "14.1.0",
+    "http-server": "14.1.1",
     "jest": "27.5.1",
     "jest-specific-snapshot": "5.0.0",
     "react-is": "18.1.0",
