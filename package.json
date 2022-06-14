@@ -63,14 +63,14 @@
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-mdx": "1.17.0",
     "eslint-plugin-react": "7.30.0",
-    "eslint-plugin-react-hooks": "4.5.0",
+    "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-storybook": "0.5.12",
     "flow-bin": "0.176.2",
     "flow-typed": "3.7.0",
     "http-server": "14.1.1",
     "jest": "27.5.1",
     "jest-specific-snapshot": "5.0.0",
-    "react-is": "18.1.0",
+    "react-is": "18.2.0",
     "require-from-string": "2.0.2",
     "rimraf": "3.0.2",
     "slash": "4.0.0",
@@ -97,8 +97,8 @@
     "test": "yarn cross-env BABEL_ENV=test yarn node --experimental-vm-modules $(yarn bin jest) --passWithNoTests"
   },
   "dependencies": {
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "styled-components": "5.3.5"
   }
 }
