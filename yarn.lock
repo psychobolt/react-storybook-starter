@@ -9836,9 +9836,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-mdx@npm:^1.17.0":
-  version: 1.17.0
-  resolution: "eslint-mdx@npm:1.17.0"
+"eslint-mdx@npm:^1.17.1":
+  version: 1.17.1
+  resolution: "eslint-mdx@npm:1.17.1"
   dependencies:
     cosmiconfig: ^7.0.1
     remark-mdx: ^1.6.22
@@ -9848,7 +9848,7 @@ __metadata:
     unified: ^9.2.2
   peerDependencies:
     eslint: ">=5.0.0"
-  checksum: 873b60f66cc09b7ea07ea85393a94dfdc11dfa6894268e6bdf2afef1e5dd889653a00aa56ed44aad6d6ad0e5ff6e31db9ef80200979cdcfc547d5d8529770506
+  checksum: 390a1c5141ff18e8edc985e97c1534d0ba0fd3af83c96e8a256fc79c648a3323a048c73c70914e264ffba62ccf051b5daab9dbce804d52a9842083bb13ff10a6
   languageName: node
   linkType: hard
 
@@ -9950,18 +9950,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-mdx@npm:1.17.0":
-  version: 1.17.0
-  resolution: "eslint-plugin-mdx@npm:1.17.0"
+"eslint-plugin-mdx@npm:1.17.1":
+  version: 1.17.1
+  resolution: "eslint-plugin-mdx@npm:1.17.1"
   dependencies:
-    eslint-mdx: ^1.17.0
+    eslint-mdx: ^1.17.1
     eslint-plugin-markdown: ^2.2.1
     synckit: ^0.4.1
     tslib: ^2.3.1
     vfile: ^4.2.1
   peerDependencies:
     eslint: ">=5.0.0"
-  checksum: 77bdd7e9584f988df2389dc35246e6c1c2f65f3455fa968cb8402659867a9ea15c9d81400e74c47652d99b0315f73d1db799c056d12c8cc3d62408f9fd1afd64
+  checksum: 43514901591fcbadbb9d2c94beb54847caa33c8cafd74e3eeb5bffa6ee1b12ce9e38bd3e147a078dfe2d03f3cd1ec645ce9cb64959db802df312a828ca01b0fa
   languageName: node
   linkType: hard
 
@@ -16459,7 +16459,7 @@ __metadata:
     eslint-plugin-import: 2.26.0
     eslint-plugin-jest: 26.5.3
     eslint-plugin-jsx-a11y: 6.6.0
-    eslint-plugin-mdx: 1.17.0
+    eslint-plugin-mdx: 1.17.1
     eslint-plugin-react: 7.30.1
     eslint-plugin-react-hooks: 4.6.0
     eslint-plugin-storybook: 0.5.13
