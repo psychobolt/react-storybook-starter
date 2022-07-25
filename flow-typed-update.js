@@ -16,7 +16,7 @@ const FLOW_DEPS_LINK_RESOLVE = path.resolve(ROOT_RESOLVE, 'flow-deps-modules');
 const libdefDir = path.relative(dirname(importMetaUrl), path.resolve(SHARED_RESOLVE, 'flow-typed'));
 
 const command = (args, cwd) => spawn.sync('yarn', args, { stdio: 'inherit', cwd }); // TODO handle stderr
-const flowTypedCmd = ['node', require.resolve('flow-typed'), 'update', '--libdefDir', libdefDir, '-s', '--skipFlowRestart', '-i', 'dev'];
+const flowTypedCmd = ['node', require.resolve('flow-typed'), 'update', '--libdefDir', libdefDir, '-s', '--skipFlowRestart'];
 
 console.log('Linking Flow Dependencies...');
 command(['install'], FLOW_DEPS_RESOLVE);
