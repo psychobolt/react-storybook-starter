@@ -70,10 +70,13 @@
     "http-server": "14.1.1",
     "jest": "27.5.1",
     "jest-specific-snapshot": "5.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-is": "18.2.0",
     "require-from-string": "2.0.2",
     "rimraf": "3.0.2",
     "slash": "4.0.0",
+    "styled-components": "5.3.5",
     "stylelint": "14.9.1",
     "stylelint-config-standard-scss": "5.0.0",
     "stylelint-config-styled-components": "0.1.1",
@@ -95,10 +98,5 @@
     "flow-typed-install": "yarn rimraf shared/flow-typed/npm && yarn run flow-typed-update",
     "flow-typed-create-stub": "yarn flow-typed create-stub --libdefDir shared/flow-typed/",
     "test": "yarn cross-env BABEL_ENV=test yarn node --experimental-vm-modules $(yarn bin jest) --passWithNoTests"
-  },
-  "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "styled-components": "5.3.5"
   }
 }
