@@ -77,7 +77,7 @@
     "rimraf": "3.0.2",
     "slash": "4.0.0",
     "styled-components": "5.3.5",
-    "stylelint": "14.9.1",
+    "stylelint": "14.10.0",
     "stylelint-config-standard-scss": "5.0.0",
     "stylelint-config-styled-components": "0.1.1",
     "stylelint-processor-styled-components": "https://github.com/psychobolt/stylelint-processor-styled-components",
