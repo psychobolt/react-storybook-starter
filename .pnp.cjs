@@ -74,7 +74,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/testing-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:1.3.0"],\
             ["@testing-library/react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:13.3.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.14"],\
-            ["app-root-path", "npm:3.0.0"],\
+            ["app-root-path", "npm:3.1.0"],\
             ["babel-loader", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:8.2.5"],\
             ["babel-plugin-macros", "npm:3.1.0"],\
             ["babel-plugin-module-resolver", "npm:4.1.0"],\
@@ -10850,10 +10850,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["app-root-path", [\
-        ["npm:3.0.0", {\
-          "packageLocation": "./.yarn/cache/app-root-path-npm-3.0.0-029bfcbe5f-ff91a24db2.zip/node_modules/app-root-path/",\
+        ["npm:3.1.0", {\
+          "packageLocation": "./.yarn/cache/app-root-path-npm-3.1.0-9822bb2a96-e3db3957ae.zip/node_modules/app-root-path/",\
           "packageDependencies": [\
-            ["app-root-path", "npm:3.0.0"]\
+            ["app-root-path", "npm:3.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -22470,7 +22470,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/testing-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:1.3.0"],\
             ["@testing-library/react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:13.3.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.14"],\
-            ["app-root-path", "npm:3.0.0"],\
+            ["app-root-path", "npm:3.1.0"],\
             ["babel-loader", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:8.2.5"],\
             ["babel-plugin-macros", "npm:3.1.0"],\
             ["babel-plugin-module-resolver", "npm:4.1.0"],\
