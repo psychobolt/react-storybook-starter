@@ -1,7 +1,7 @@
 {
   "name": "react-storybook-starter",
   "type": "module",
-  "packageManager": "yarn@3.2.2",
+  "packageManager": "yarn@3.2.4",
   "devDependencies": {
     "@babel/core": "7.18.10",
     "@babel/eslint-parser": "7.18.9",
