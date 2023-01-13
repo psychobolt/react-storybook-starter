@@ -8,4 +8,5 @@ export default {
     '/flow-deps-modules/',
   ],
   collectCoverageFrom: ['<rootDir>/src/**/*.js'],
+  snapshotSerializers: ['jest-serializer-html'],
 };

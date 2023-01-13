@@ -16,6 +16,7 @@ module.exports = {
     builder: '@storybook/builder-webpack5',
   },
   features: {
+    interactionsDebugger: true,
     babelModeV7: true,
   },
   // See https://github.com/storybookjs/storybook/blob/master/addons/docs/src/frameworks/common/preset.ts, to configure

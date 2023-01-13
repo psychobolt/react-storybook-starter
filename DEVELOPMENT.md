@@ -21,9 +21,10 @@ yarn start-static # Build storybook and serve the dist
 ```sh
 yarn test # Run unit tests with Jest
 yarn test --coverage # Generate code coverage after running tests
+yarn test-storybook # Run storybook interactive tests against the localhost Storybook
 ```
 
-See Storybook's [testing guide](https://storybook.js.org/docs/react/writing-tests/introduction) for creating tests.
+> Note: See Storybook's [testing guide](https://storybook.js.org/docs/react/writing-tests/introduction) for setting up and running interactive tests.
 
 ## Including NPM packages
 
