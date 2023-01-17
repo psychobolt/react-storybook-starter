@@ -77,7 +77,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-module-resolver", "npm:4.1.0"],\
             ["babel-plugin-named-exports-order", "npm:0.0.2"],\
             ["babel-plugin-polyfill-corejs3", "virtual:2c8507bc1fe661dc9b303253fe1fc353664625b370c07d3f1b8fd80f4b8ad1046c6b975981f23548899540ba9be816efcfacc070c3e280c2726dce0bc6996615#npm:0.6.0"],\
-            ["concurrently", "npm:7.3.0"],\
+            ["concurrently", "npm:7.6.0"],\
             ["core-js", "npm:3.25.2"],\
             ["cross-env", "npm:7.0.3"],\
             ["cross-spawn", "npm:7.0.3"],\
@@ -14512,12 +14512,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["concurrently", [\
-        ["npm:7.3.0", {\
-          "packageLocation": "./.yarn/cache/concurrently-npm-7.3.0-0123c57666-5de845e494.zip/node_modules/concurrently/",\
+        ["npm:7.6.0", {\
+          "packageLocation": "./.yarn/cache/concurrently-npm-7.6.0-2eabc58c36-f705c9a796.zip/node_modules/concurrently/",\
           "packageDependencies": [\
-            ["concurrently", "npm:7.3.0"],\
+            ["concurrently", "npm:7.6.0"],\
             ["chalk", "npm:4.1.2"],\
-            ["date-fns", "npm:2.28.0"],\
+            ["date-fns", "npm:2.29.3"],\
             ["lodash", "npm:4.17.21"],\
             ["rxjs", "npm:7.5.5"],\
             ["shell-quote", "npm:1.7.3"],\
@@ -15109,10 +15109,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["date-fns", [\
-        ["npm:2.28.0", {\
-          "packageLocation": "./.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/",\
+        ["npm:2.29.3", {\
+          "packageLocation": "./.yarn/cache/date-fns-npm-2.29.3-fef7e3c72c-e01cf5b62a.zip/node_modules/date-fns/",\
           "packageDependencies": [\
-            ["date-fns", "npm:2.28.0"]\
+            ["date-fns", "npm:2.29.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -25197,7 +25197,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-module-resolver", "npm:4.1.0"],\
             ["babel-plugin-named-exports-order", "npm:0.0.2"],\
             ["babel-plugin-polyfill-corejs3", "virtual:2c8507bc1fe661dc9b303253fe1fc353664625b370c07d3f1b8fd80f4b8ad1046c6b975981f23548899540ba9be816efcfacc070c3e280c2726dce0bc6996615#npm:0.6.0"],\
-            ["concurrently", "npm:7.3.0"],\
+            ["concurrently", "npm:7.6.0"],\
             ["core-js", "npm:3.25.2"],\
             ["cross-env", "npm:7.0.3"],\
             ["cross-spawn", "npm:7.0.3"],\
