@@ -76,7 +76,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-macros", "npm:3.1.0"],\
             ["babel-plugin-module-resolver", "npm:4.1.0"],\
             ["babel-plugin-named-exports-order", "npm:0.0.2"],\
-            ["babel-plugin-polyfill-corejs3", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:0.5.3"],\
+            ["babel-plugin-polyfill-corejs3", "virtual:2c8507bc1fe661dc9b303253fe1fc353664625b370c07d3f1b8fd80f4b8ad1046c6b975981f23548899540ba9be816efcfacc070c3e280c2726dce0bc6996615#npm:0.6.0"],\
             ["concurrently", "npm:7.3.0"],\
             ["core-js", "npm:3.25.2"],\
             ["cross-env", "npm:7.0.3"],\
@@ -629,38 +629,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["npm:0.3.2", {\
-          "packageLocation": "./.yarn/cache/@babel-helper-define-polyfill-provider-npm-0.3.2-bf05572988-8f693ab8e9.zip/node_modules/@babel/helper-define-polyfill-provider/",\
-          "packageDependencies": [\
-            ["@babel/helper-define-polyfill-provider", "npm:0.3.2"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
         ["npm:0.3.3", {\
           "packageLocation": "./.yarn/cache/@babel-helper-define-polyfill-provider-npm-0.3.3-8c896ae707-8e3fe75513.zip/node_modules/@babel/helper-define-polyfill-provider/",\
           "packageDependencies": [\
             ["@babel/helper-define-polyfill-provider", "npm:0.3.3"]\
           ],\
           "linkType": "SOFT"\
-        }],\
-        ["virtual:1cd76e6be48359c585d896becc0f5895104ddc0656bf120a4a5b41c7efc7c2a19a4926bb1ac84ed5b76ae13408537897176f401ee4a67d070cc0a35afbd3366e#npm:0.3.2", {\
-          "packageLocation": "./.yarn/__virtual__/@babel-helper-define-polyfill-provider-virtual-b23408d1cc/0/cache/@babel-helper-define-polyfill-provider-npm-0.3.2-bf05572988-8f693ab8e9.zip/node_modules/@babel/helper-define-polyfill-provider/",\
-          "packageDependencies": [\
-            ["@babel/helper-define-polyfill-provider", "virtual:1cd76e6be48359c585d896becc0f5895104ddc0656bf120a4a5b41c7efc7c2a19a4926bb1ac84ed5b76ae13408537897176f401ee4a67d070cc0a35afbd3366e#npm:0.3.2"],\
-            ["@babel/core", "npm:7.20.12"],\
-            ["@babel/helper-compilation-targets", "virtual:72b47612d8abcc6f50d9b5b3608bf2da5388805dbf283576aceaaa311c2acbee9fd793218bffca22bfee79ab43cdc5dff0c8aa25dc8a7b85de9c9bab9ec1c305#npm:7.17.7"],\
-            ["@babel/helper-plugin-utils", "npm:7.16.7"],\
-            ["@types/babel__core", null],\
-            ["debug", "virtual:68fa1c73c8a72515d25eaa47c88fa7c560bf130de4f3364a9b6d609d13e1829a816ec0c736f56d3fcc20f15ad0950c234159dca04d6c003fcb753985d78df618#npm:4.3.4"],\
-            ["lodash.debounce", "npm:4.0.8"],\
-            ["resolve", "patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=c3c19d"],\
-            ["semver", "npm:6.3.0"]\
-          ],\
-          "packagePeers": [\
-            "@babel/core",\
-            "@types/babel__core"\
-          ],\
-          "linkType": "HARD"\
         }],\
         ["virtual:5bced6d1d07f9620d728deeb56aef235d4bf9db6df3c5ed45970b5378a18e6f7bce8c2851a57a51191cfb0c0689b1c27404a4c2c219e925d6a7cb1642cafa5a5#npm:0.3.1", {\
           "packageLocation": "./.yarn/__virtual__/@babel-helper-define-polyfill-provider-virtual-4a2e15ee7c/0/cache/@babel-helper-define-polyfill-provider-npm-0.3.1-7c6efdf410-e3e93cb22f.zip/node_modules/@babel/helper-define-polyfill-provider/",\
@@ -12850,13 +12824,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["npm:0.5.3", {\
-          "packageLocation": "./.yarn/cache/babel-plugin-polyfill-corejs3-npm-0.5.3-55aa3bb939-9c6644a1b0.zip/node_modules/babel-plugin-polyfill-corejs3/",\
-          "packageDependencies": [\
-            ["babel-plugin-polyfill-corejs3", "npm:0.5.3"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
         ["npm:0.6.0", {\
           "packageLocation": "./.yarn/cache/babel-plugin-polyfill-corejs3-npm-0.6.0-2d0edf85b8-470bb8c59f.zip/node_modules/babel-plugin-polyfill-corejs3/",\
           "packageDependencies": [\
@@ -12872,21 +12839,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-define-polyfill-provider", "virtual:a027b6ce9df50eed6100d8a2de2e606ca4abdd0c8ae00896772f013dd8a16356724adb62fa3e3600626fe831e0dc43530ce280277e2cb5f9a61b81a768d6ef55#npm:0.3.3"],\
             ["@types/babel__core", null],\
             ["core-js-compat", "npm:3.27.1"]\
-          ],\
-          "packagePeers": [\
-            "@babel/core",\
-            "@types/babel__core"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:0.5.3", {\
-          "packageLocation": "./.yarn/__virtual__/babel-plugin-polyfill-corejs3-virtual-1cd76e6be4/0/cache/babel-plugin-polyfill-corejs3-npm-0.5.3-55aa3bb939-9c6644a1b0.zip/node_modules/babel-plugin-polyfill-corejs3/",\
-          "packageDependencies": [\
-            ["babel-plugin-polyfill-corejs3", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:0.5.3"],\
-            ["@babel/core", "npm:7.20.12"],\
-            ["@babel/helper-define-polyfill-provider", "virtual:1cd76e6be48359c585d896becc0f5895104ddc0656bf120a4a5b41c7efc7c2a19a4926bb1ac84ed5b76ae13408537897176f401ee4a67d070cc0a35afbd3366e#npm:0.3.2"],\
-            ["@types/babel__core", null],\
-            ["core-js-compat", "npm:3.21.1"]\
           ],\
           "packagePeers": [\
             "@babel/core",\
@@ -25244,7 +25196,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-macros", "npm:3.1.0"],\
             ["babel-plugin-module-resolver", "npm:4.1.0"],\
             ["babel-plugin-named-exports-order", "npm:0.0.2"],\
-            ["babel-plugin-polyfill-corejs3", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:0.5.3"],\
+            ["babel-plugin-polyfill-corejs3", "virtual:2c8507bc1fe661dc9b303253fe1fc353664625b370c07d3f1b8fd80f4b8ad1046c6b975981f23548899540ba9be816efcfacc070c3e280c2726dce0bc6996615#npm:0.6.0"],\
             ["concurrently", "npm:7.3.0"],\
             ["core-js", "npm:3.25.2"],\
             ["cross-env", "npm:7.0.3"],\
