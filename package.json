@@ -79,7 +79,7 @@
     "react-is": "18.2.0",
     "require-from-string": "2.0.2",
     "rimraf": "4.1.1",
-    "slash": "4.0.0",
+    "slash": "5.0.0",
     "styled-components": "5.3.6",
     "stylelint": "14.16.1",
     "stylelint-config-standard-scss": "5.0.0",
