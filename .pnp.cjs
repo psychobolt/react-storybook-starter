@@ -89,7 +89,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jest", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:27.2.1"],\
             ["eslint-plugin-jsx-a11y", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:6.7.1"],\
             ["eslint-plugin-mdx", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:1.17.1"],\
-            ["eslint-plugin-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.32.1"],\
+            ["eslint-plugin-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.32.2"],\
             ["eslint-plugin-react-hooks", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:4.6.0"],\
             ["eslint-plugin-storybook", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:0.6.10"],\
             ["flow-bin", "npm:0.176.2"],\
@@ -16663,7 +16663,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-airbnb-base", "virtual:f7d09c8017264b378c3ae9635b6edea7811819a680f2c4943cc8a792f3d2feec60627e180cec9229a109fee7ddb2fec6b23c6c71c8075766879c47b10dc4e2e9#npm:15.0.0"],\
             ["eslint-plugin-import", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:2.27.5"],\
             ["eslint-plugin-jsx-a11y", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:6.7.1"],\
-            ["eslint-plugin-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.32.1"],\
+            ["eslint-plugin-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.32.2"],\
             ["eslint-plugin-react-hooks", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:4.6.0"],\
             ["object.assign", "npm:4.1.2"],\
             ["object.entries", "npm:1.1.5"]\
@@ -17022,17 +17022,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["eslint-plugin-react", [\
-        ["npm:7.32.1", {\
-          "packageLocation": "./.yarn/cache/eslint-plugin-react-npm-7.32.1-3bdecf0e81-e20eab6116.zip/node_modules/eslint-plugin-react/",\
+        ["npm:7.32.2", {\
+          "packageLocation": "./.yarn/cache/eslint-plugin-react-npm-7.32.2-b8b92d1b99-2232b3b894.zip/node_modules/eslint-plugin-react/",\
           "packageDependencies": [\
-            ["eslint-plugin-react", "npm:7.32.1"]\
+            ["eslint-plugin-react", "npm:7.32.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.32.1", {\
-          "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-virtual-af5b15c35f/0/cache/eslint-plugin-react-npm-7.32.1-3bdecf0e81-e20eab6116.zip/node_modules/eslint-plugin-react/",\
+        ["virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.32.2", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-virtual-8cf24ae05d/0/cache/eslint-plugin-react-npm-7.32.2-b8b92d1b99-2232b3b894.zip/node_modules/eslint-plugin-react/",\
           "packageDependencies": [\
-            ["eslint-plugin-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.32.1"],\
+            ["eslint-plugin-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.32.2"],\
             ["@types/eslint", null],\
             ["array-includes", "npm:3.1.6"],\
             ["array.prototype.flatmap", "npm:1.3.1"],\
@@ -25742,7 +25742,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jest", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:27.2.1"],\
             ["eslint-plugin-jsx-a11y", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:6.7.1"],\
             ["eslint-plugin-mdx", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:1.17.1"],\
-            ["eslint-plugin-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.32.1"],\
+            ["eslint-plugin-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.32.2"],\
             ["eslint-plugin-react-hooks", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:4.6.0"],\
             ["eslint-plugin-storybook", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:0.6.10"],\
             ["flow-bin", "npm:0.176.2"],\
