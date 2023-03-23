@@ -97,7 +97,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["http-server", "npm:14.1.1"],\
             ["jest", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:27.5.1"],\
             ["jest-serializer-html", "npm:7.1.0"],\
-            ["jest-specific-snapshot", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.0.0"],\
+            ["jest-specific-snapshot", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:8.0.0"],\
             ["playwright", "npm:1.32.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:18.2.0"],\
@@ -23497,17 +23497,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["jest-specific-snapshot", [\
-        ["npm:7.0.0", {\
-          "packageLocation": "./.yarn/cache/jest-specific-snapshot-npm-7.0.0-50eb746441-1ebaade142.zip/node_modules/jest-specific-snapshot/",\
+        ["npm:8.0.0", {\
+          "packageLocation": "./.yarn/cache/jest-specific-snapshot-npm-8.0.0-5813d98b95-8ffcee9ca7.zip/node_modules/jest-specific-snapshot/",\
           "packageDependencies": [\
-            ["jest-specific-snapshot", "npm:7.0.0"]\
+            ["jest-specific-snapshot", "npm:8.0.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/jest-specific-snapshot-virtual-5be0b28a16/0/cache/jest-specific-snapshot-npm-7.0.0-50eb746441-1ebaade142.zip/node_modules/jest-specific-snapshot/",\
+        ["virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:8.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/jest-specific-snapshot-virtual-9ffb93fbb1/0/cache/jest-specific-snapshot-npm-8.0.0-5813d98b95-8ffcee9ca7.zip/node_modules/jest-specific-snapshot/",\
           "packageDependencies": [\
-            ["jest-specific-snapshot", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.0.0"],\
+            ["jest-specific-snapshot", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:8.0.0"],\
             ["@types/jest", null],\
             ["jest", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:27.5.1"],\
             ["jest-snapshot", "npm:29.3.1"]\
@@ -27633,7 +27633,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["http-server", "npm:14.1.1"],\
             ["jest", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:27.5.1"],\
             ["jest-serializer-html", "npm:7.1.0"],\
-            ["jest-specific-snapshot", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.0.0"],\
+            ["jest-specific-snapshot", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:8.0.0"],\
             ["playwright", "npm:1.32.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:18.2.0"],\

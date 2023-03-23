@@ -16169,14 +16169,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-specific-snapshot@npm:7.0.0":
-  version: 7.0.0
-  resolution: "jest-specific-snapshot@npm:7.0.0"
+"jest-specific-snapshot@npm:8.0.0":
+  version: 8.0.0
+  resolution: "jest-specific-snapshot@npm:8.0.0"
   dependencies:
     jest-snapshot: ^29.0.0
   peerDependencies:
     jest: ">= 29.0.0"
-  checksum: 1ebaade142bc31d5e22e30f3c8dcc6a8735983affe5662a99871a9af9bf228818856530f96973250261ecb4800c603c2c52fc0c20ff1dd6485f9c9fa394b0b96
+  checksum: 8ffcee9ca79db961c3749ac618575d804520d7191214b92919e2aa55338a1dc99ec15dba5dffd59b3608534a869af119e636cc07398738d126856030eb5f7848
   languageName: node
   linkType: hard
 
@@ -19809,7 +19809,7 @@ __metadata:
     http-server: 14.1.1
     jest: 27.5.1
     jest-serializer-html: 7.1.0
-    jest-specific-snapshot: 7.0.0
+    jest-specific-snapshot: 8.0.0
     playwright: 1.32.0
     react: 18.2.0
     react-dom: 18.2.0
