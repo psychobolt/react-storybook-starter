@@ -98,7 +98,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:27.5.1"],\
             ["jest-serializer-html", "npm:7.1.0"],\
             ["jest-specific-snapshot", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.0.0"],\
-            ["playwright", "npm:1.31.0"],\
+            ["playwright", "npm:1.32.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:18.2.0"],\
             ["react-is", "npm:18.2.0"],\
@@ -26440,11 +26440,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:1.31.0", {\
-          "packageLocation": "./.yarn/cache/playwright-npm-1.31.0-9eb0e0657e-4c0dccb22f.zip/node_modules/playwright/",\
+        ["npm:1.32.0", {\
+          "packageLocation": "./.yarn/cache/playwright-npm-1.32.0-029fcece58-0d61d20042.zip/node_modules/playwright/",\
           "packageDependencies": [\
-            ["playwright", "npm:1.31.0"],\
-            ["playwright-core", "npm:1.31.0"]\
+            ["playwright", "npm:1.32.0"],\
+            ["playwright-core", "npm:1.32.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -26457,10 +26457,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:1.31.0", {\
-          "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.31.0-2f698b26e2/node_modules/playwright-core/",\
+        ["npm:1.32.0", {\
+          "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.32.0-0542145e53/node_modules/playwright-core/",\
           "packageDependencies": [\
-            ["playwright-core", "npm:1.31.0"]\
+            ["playwright-core", "npm:1.32.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -27634,7 +27634,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:27.5.1"],\
             ["jest-serializer-html", "npm:7.1.0"],\
             ["jest-specific-snapshot", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:7.0.0"],\
-            ["playwright", "npm:1.31.0"],\
+            ["playwright", "npm:1.32.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:18.2.0"],\
             ["react-is", "npm:18.2.0"],\
