@@ -88,6 +88,9 @@
     "symlink-dir": "5.1.1",
     "webpack": "5.81.0"
   },
+  "resolutions": {
+    "@testing-library/dom": "9.2.0"
+  },
   "scripts": {
     "start": "yarn run storybook",
     "start-static": "yarn run build-storybook && yarn http-server storybook-static",
