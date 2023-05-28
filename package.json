@@ -89,7 +89,7 @@
     "webpack": "5.81.0"
   },
   "resolutions": {
-    "@testing-library/dom": "9.2.0"
+    "@testing-library/dom": "9.3.0"
   },
   "scripts": {
     "start": "yarn run storybook",
