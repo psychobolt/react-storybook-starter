@@ -9758,15 +9758,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-polyfill-corejs3@npm:0.7.1":
-  version: 0.7.1
-  resolution: "babel-plugin-polyfill-corejs3@npm:0.7.1"
+"babel-plugin-polyfill-corejs3@npm:0.8.1, babel-plugin-polyfill-corejs3@npm:^0.8.1":
+  version: 0.8.1
+  resolution: "babel-plugin-polyfill-corejs3@npm:0.8.1"
   dependencies:
-    "@babel/helper-define-polyfill-provider": ^0.3.3
-    core-js-compat: ^3.29.0
+    "@babel/helper-define-polyfill-provider": ^0.4.0
+    core-js-compat: ^3.30.1
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 1b887b51b4594e6bdc06df285fd6989696acbc6e59a370620c5224b461263c195ae12f65de96b85f750289dae7f9857bc4e21545e69fdbd7f739345df5885595
+  checksum: c23a581973c141a4687126cf964981180ef27e3eb0b34b911161db4f5caf9ba7ff60bee0ebe46d650ba09e03a6a3ac2cd6a6ae5f4f5363a148470e5cd8447df2
   languageName: node
   linkType: hard
 
@@ -9803,18 +9803,6 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: 470bb8c59f7c0912bd77fe1b5a2e72f349b3f65bbdee1d60d6eb7e1f4a085c6f24b2dd5ab4ac6c2df6444a96b070ef6790eccc9edb6a2668c60d33133bfb62c6
-  languageName: node
-  linkType: hard
-
-"babel-plugin-polyfill-corejs3@npm:^0.8.1":
-  version: 0.8.1
-  resolution: "babel-plugin-polyfill-corejs3@npm:0.8.1"
-  dependencies:
-    "@babel/helper-define-polyfill-provider": ^0.4.0
-    core-js-compat: ^3.30.1
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: c23a581973c141a4687126cf964981180ef27e3eb0b34b911161db4f5caf9ba7ff60bee0ebe46d650ba09e03a6a3ac2cd6a6ae5f4f5363a148470e5cd8447df2
   languageName: node
   linkType: hard
 
@@ -11357,15 +11345,6 @@ __metadata:
   dependencies:
     browserslist: ^4.21.4
   checksum: e857068f470d67c681564eb87aebf068341db32aa0b9941a5126e588945d909fcd51b1959bb589c855c11056e2ccabe49e96d07007d7d91d56b0d9936fe00d50
-  languageName: node
-  linkType: hard
-
-"core-js-compat@npm:^3.29.0":
-  version: 3.29.1
-  resolution: "core-js-compat@npm:3.29.1"
-  dependencies:
-    browserslist: ^4.21.5
-  checksum: 7260f6bbaa98836cda09a3b61aa721149d3ae95040302fb3b27eb153ae9bbddc8dee5249e72004cdc9552532029de4d50a5b2b066c37414421d2929d6091b18f
   languageName: node
   linkType: hard
 
@@ -20962,7 +20941,7 @@ __metadata:
     babel-plugin-macros: 3.1.0
     babel-plugin-module-resolver: 5.0.0
     babel-plugin-named-exports-order: 0.0.2
-    babel-plugin-polyfill-corejs3: 0.7.1
+    babel-plugin-polyfill-corejs3: 0.8.1
     concurrently: 8.0.1
     core-js: 3.30.2
     cross-env: 7.0.3
