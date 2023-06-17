@@ -12993,7 +12993,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/testing-library", "npm:0.0.13"],\
             ["@storybook/client-logger", "npm:6.5.9"],\
             ["@storybook/instrumenter", "npm:6.4.21"],\
-            ["@testing-library/dom", "npm:9.3.0"],\
+            ["@testing-library/dom", "npm:9.3.1"],\
             ["@testing-library/user-event", "virtual:296547921a6d1fc7d09e7d8ff5001acce1c1a24449a8e9e2493dcaad14a627fad37e4c994feae32e81bcbddf2f06c98c0eaf87073ef5761ab0137914056426ec#npm:13.5.0"],\
             ["ts-dedent", "npm:2.2.0"]\
           ],\
@@ -13211,14 +13211,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@testing-library/dom", [\
-        ["npm:9.3.0", {\
-          "packageLocation": "./.yarn/cache/@testing-library-dom-npm-9.3.0-60726cd56a-790f4da6a8.zip/node_modules/@testing-library/dom/",\
+        ["npm:9.3.1", {\
+          "packageLocation": "./.yarn/cache/@testing-library-dom-npm-9.3.1-ec81dc9367-8ee3136451.zip/node_modules/@testing-library/dom/",\
           "packageDependencies": [\
-            ["@testing-library/dom", "npm:9.3.0"],\
+            ["@testing-library/dom", "npm:9.3.1"],\
             ["@babel/code-frame", "npm:7.16.7"],\
             ["@babel/runtime", "npm:7.17.9"],\
             ["@types/aria-query", "npm:5.0.1"],\
-            ["aria-query", "npm:5.0.0"],\
+            ["aria-query", "npm:5.1.3"],\
             ["chalk", "npm:4.1.2"],\
             ["dom-accessibility-api", "npm:0.5.13"],\
             ["lz-string", "npm:1.5.0"],\
@@ -13258,7 +13258,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@testing-library/react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:14.0.0"],\
             ["@babel/runtime", "npm:7.17.9"],\
-            ["@testing-library/dom", "npm:9.3.0"],\
+            ["@testing-library/dom", "npm:9.3.1"],\
             ["@types/react", null],\
             ["@types/react-dom", "npm:18.0.1"],\
             ["react", "npm:18.2.0"],\
@@ -13285,7 +13285,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@testing-library/user-event", "virtual:296547921a6d1fc7d09e7d8ff5001acce1c1a24449a8e9e2493dcaad14a627fad37e4c994feae32e81bcbddf2f06c98c0eaf87073ef5761ab0137914056426ec#npm:13.5.0"],\
             ["@babel/runtime", "npm:7.17.9"],\
-            ["@testing-library/dom", "npm:9.3.0"],\
+            ["@testing-library/dom", "npm:9.3.1"],\
             ["@types/testing-library__dom", null]\
           ],\
           "packagePeers": [\
