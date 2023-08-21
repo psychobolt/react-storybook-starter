@@ -51,7 +51,7 @@
     "babel-plugin-macros": "3.1.0",
     "babel-plugin-module-resolver": "5.0.0",
     "babel-plugin-named-exports-order": "0.0.2",
-    "babel-plugin-polyfill-corejs3": "0.8.1",
+    "babel-plugin-polyfill-corejs3": "0.8.3",
     "concurrently": "8.2.0",
     "core-js": "3.31.0",
     "cross-env": "7.0.3",
