@@ -1,7 +1,7 @@
 {
   "name": "react-storybook-starter",
   "type": "module",
-  "packageManager": "yarn@3.6.0",
+  "packageManager": "yarn@3.6.2",
   "devDependencies": {
     "@babel/core": "7.22.10",
     "@babel/eslint-parser": "7.22.10",
@@ -45,7 +45,7 @@
     "@storybook/testing-library": "0.0.13",
     "@storybook/testing-react": "1.3.0",
     "@testing-library/react": "14.0.0",
-    "@yarnpkg/sdks": "3.0.0-rc.47",
+    "@yarnpkg/sdks": "3.0.0-rc.49",
     "app-root-path": "3.1.0",
     "babel-loader": "9.1.3",
     "babel-plugin-macros": "3.1.0",

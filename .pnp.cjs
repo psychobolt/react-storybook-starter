@@ -70,7 +70,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/testing-library", "npm:0.0.13"],\
             ["@storybook/testing-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:1.3.0"],\
             ["@testing-library/react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:14.0.0"],\
-            ["@yarnpkg/sdks", "npm:3.0.0-rc.47"],\
+            ["@yarnpkg/sdks", "npm:3.0.0-rc.49"],\
             ["app-root-path", "npm:3.1.0"],\
             ["babel-loader", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:9.1.3"],\
             ["babel-plugin-macros", "npm:3.1.0"],\
@@ -13012,25 +13012,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/core", [\
-        ["npm:4.0.0-rc.47", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-core-npm-4.0.0-rc.47-0d5ebffa92-b5fa11cdd6.zip/node_modules/@yarnpkg/core/",\
+        ["npm:4.0.0-rc.49", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-core-npm-4.0.0-rc.49-8e8f93297f-c1f9f8b990.zip/node_modules/@yarnpkg/core/",\
           "packageDependencies": [\
-            ["@yarnpkg/core", "npm:4.0.0-rc.47"],\
+            ["@yarnpkg/core", "npm:4.0.0-rc.49"],\
             ["@arcanis/slice-ansi", "npm:1.1.1"],\
             ["@types/semver", "npm:7.3.9"],\
             ["@types/treeify", "npm:1.0.0"],\
-            ["@yarnpkg/fslib", "npm:3.0.0-rc.47"],\
-            ["@yarnpkg/libzip", "virtual:0d5ebffa92829ad7a98ff464c0b769e83b01a6530f37e8bb123c0a81502bf9b1f6d4b3b36193bc5d3ee0de7c64f15989a04ca66f4994ec841768ce4b059655d2#npm:3.0.0-rc.47"],\
-            ["@yarnpkg/parsers", "npm:3.0.0-rc.47.1"],\
-            ["@yarnpkg/shell", "npm:4.0.0-rc.47"],\
+            ["@yarnpkg/fslib", "npm:3.0.0-rc.49"],\
+            ["@yarnpkg/libzip", "virtual:8e8f93297f4be835b08f92473387f4481029f221c90cbed5d797efd8595a46af0b4c2e5085e07d09489451920180d9d60711300e0bf9af707ad5b82b65a98a60#npm:3.0.0-rc.49"],\
+            ["@yarnpkg/parsers", "npm:3.0.0-rc.49"],\
+            ["@yarnpkg/shell", "npm:4.0.0-rc.49"],\
             ["camelcase", "npm:5.3.1"],\
             ["chalk", "npm:3.0.0"],\
             ["ci-info", "npm:3.3.0"],\
-            ["clipanion", "virtual:177533489bf1b88f277a61d8958d58e17ba99d4fa4e0702b7ffe40db6eec17c450854df6347bb77be2b6f05708f58c9908d2a084b9a989c87e3d3ac07702f7d9#npm:3.2.1"],\
+            ["clipanion", "virtual:d06e049a05b69a00c605caa5a9f205f42f27a245ff12ae23cf1b7617f5f4ffde333bffa8fdb383096a630bec19be43ac9a05e5d7366bc1dd729ad9959e6cd2be#npm:4.0.0-rc.2"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["diff", "npm:5.1.0"],\
             ["dotenv", "npm:16.3.1"],\
-            ["globby", "npm:11.1.0"],\
+            ["fast-glob", "npm:3.2.11"],\
             ["got", "npm:11.8.3"],\
             ["lodash", "npm:4.17.21"],\
             ["micromatch", "npm:4.0.5"],\
@@ -13047,30 +13047,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/fslib", [\
-        ["npm:3.0.0-rc.47", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-fslib-npm-3.0.0-rc.47-bdf65066cc-9abf762620.zip/node_modules/@yarnpkg/fslib/",\
+        ["npm:3.0.0-rc.49", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-fslib-npm-3.0.0-rc.49-d24cb9a078-0432b21cfe.zip/node_modules/@yarnpkg/fslib/",\
           "packageDependencies": [\
-            ["@yarnpkg/fslib", "npm:3.0.0-rc.47"],\
+            ["@yarnpkg/fslib", "npm:3.0.0-rc.49"],\
             ["tslib", "npm:2.4.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@yarnpkg/libzip", [\
-        ["npm:3.0.0-rc.47", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-libzip-npm-3.0.0-rc.47-6fbc324f55-2287916b89.zip/node_modules/@yarnpkg/libzip/",\
+        ["npm:3.0.0-rc.49", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-libzip-npm-3.0.0-rc.49-7c59aa68b2-8c60ebd6ac.zip/node_modules/@yarnpkg/libzip/",\
           "packageDependencies": [\
-            ["@yarnpkg/libzip", "npm:3.0.0-rc.47"]\
+            ["@yarnpkg/libzip", "npm:3.0.0-rc.49"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:0d5ebffa92829ad7a98ff464c0b769e83b01a6530f37e8bb123c0a81502bf9b1f6d4b3b36193bc5d3ee0de7c64f15989a04ca66f4994ec841768ce4b059655d2#npm:3.0.0-rc.47", {\
-          "packageLocation": "./.yarn/__virtual__/@yarnpkg-libzip-virtual-c15420936d/0/cache/@yarnpkg-libzip-npm-3.0.0-rc.47-6fbc324f55-2287916b89.zip/node_modules/@yarnpkg/libzip/",\
+        ["virtual:8e8f93297f4be835b08f92473387f4481029f221c90cbed5d797efd8595a46af0b4c2e5085e07d09489451920180d9d60711300e0bf9af707ad5b82b65a98a60#npm:3.0.0-rc.49", {\
+          "packageLocation": "./.yarn/__virtual__/@yarnpkg-libzip-virtual-92cee50ef9/0/cache/@yarnpkg-libzip-npm-3.0.0-rc.49-7c59aa68b2-8c60ebd6ac.zip/node_modules/@yarnpkg/libzip/",\
           "packageDependencies": [\
-            ["@yarnpkg/libzip", "virtual:0d5ebffa92829ad7a98ff464c0b769e83b01a6530f37e8bb123c0a81502bf9b1f6d4b3b36193bc5d3ee0de7c64f15989a04ca66f4994ec841768ce4b059655d2#npm:3.0.0-rc.47"],\
+            ["@yarnpkg/libzip", "virtual:8e8f93297f4be835b08f92473387f4481029f221c90cbed5d797efd8595a46af0b4c2e5085e07d09489451920180d9d60711300e0bf9af707ad5b82b65a98a60#npm:3.0.0-rc.49"],\
             ["@types/emscripten", "npm:1.39.6"],\
             ["@types/yarnpkg__fslib", null],\
-            ["@yarnpkg/fslib", "npm:3.0.0-rc.47"],\
+            ["@yarnpkg/fslib", "npm:3.0.0-rc.49"],\
             ["tslib", "npm:2.4.1"]\
           ],\
           "packagePeers": [\
@@ -13081,10 +13081,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/parsers", [\
-        ["npm:3.0.0-rc.47.1", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-parsers-npm-3.0.0-rc.47.1-b39aae1bdc-c0a434fba7.zip/node_modules/@yarnpkg/parsers/",\
+        ["npm:3.0.0-rc.49", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-parsers-npm-3.0.0-rc.49-dc6e05028b-7b4c1f3e14.zip/node_modules/@yarnpkg/parsers/",\
           "packageDependencies": [\
-            ["@yarnpkg/parsers", "npm:3.0.0-rc.47.1"],\
+            ["@yarnpkg/parsers", "npm:3.0.0-rc.49"],\
             ["js-yaml", "npm:3.14.1"],\
             ["tslib", "npm:2.4.1"]\
           ],\
@@ -13092,15 +13092,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/sdks", [\
-        ["npm:3.0.0-rc.47", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-sdks-npm-3.0.0-rc.47-d7aa6b67d2-0d61e5853e.zip/node_modules/@yarnpkg/sdks/",\
+        ["npm:3.0.0-rc.49", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-sdks-npm-3.0.0-rc.49-da63de3d33-0b4d2b8073.zip/node_modules/@yarnpkg/sdks/",\
           "packageDependencies": [\
-            ["@yarnpkg/sdks", "npm:3.0.0-rc.47"],\
-            ["@yarnpkg/core", "npm:4.0.0-rc.47"],\
-            ["@yarnpkg/fslib", "npm:3.0.0-rc.47"],\
-            ["@yarnpkg/parsers", "npm:3.0.0-rc.47.1"],\
+            ["@yarnpkg/sdks", "npm:3.0.0-rc.49"],\
+            ["@yarnpkg/core", "npm:4.0.0-rc.49"],\
+            ["@yarnpkg/fslib", "npm:3.0.0-rc.49"],\
+            ["@yarnpkg/parsers", "npm:3.0.0-rc.49"],\
             ["chalk", "npm:3.0.0"],\
-            ["clipanion", "virtual:177533489bf1b88f277a61d8958d58e17ba99d4fa4e0702b7ffe40db6eec17c450854df6347bb77be2b6f05708f58c9908d2a084b9a989c87e3d3ac07702f7d9#npm:3.2.1"],\
+            ["clipanion", "virtual:d06e049a05b69a00c605caa5a9f205f42f27a245ff12ae23cf1b7617f5f4ffde333bffa8fdb383096a630bec19be43ac9a05e5d7366bc1dd729ad9959e6cd2be#npm:4.0.0-rc.2"],\
             ["comment-json", "npm:2.4.2"],\
             ["lodash", "npm:4.17.21"],\
             ["tslib", "npm:2.4.1"]\
@@ -13109,14 +13109,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/shell", [\
-        ["npm:4.0.0-rc.47", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-shell-npm-4.0.0-rc.47-177533489b-50b39c0035.zip/node_modules/@yarnpkg/shell/",\
+        ["npm:4.0.0-rc.49", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-shell-npm-4.0.0-rc.49-d06e049a05-acdb9f55ba.zip/node_modules/@yarnpkg/shell/",\
           "packageDependencies": [\
-            ["@yarnpkg/shell", "npm:4.0.0-rc.47"],\
-            ["@yarnpkg/fslib", "npm:3.0.0-rc.47"],\
-            ["@yarnpkg/parsers", "npm:3.0.0-rc.47.1"],\
+            ["@yarnpkg/shell", "npm:4.0.0-rc.49"],\
+            ["@yarnpkg/fslib", "npm:3.0.0-rc.49"],\
+            ["@yarnpkg/parsers", "npm:3.0.0-rc.49"],\
             ["chalk", "npm:3.0.0"],\
-            ["clipanion", "virtual:177533489bf1b88f277a61d8958d58e17ba99d4fa4e0702b7ffe40db6eec17c450854df6347bb77be2b6f05708f58c9908d2a084b9a989c87e3d3ac07702f7d9#npm:3.2.1"],\
+            ["clipanion", "virtual:d06e049a05b69a00c605caa5a9f205f42f27a245ff12ae23cf1b7617f5f4ffde333bffa8fdb383096a630bec19be43ac9a05e5d7366bc1dd729ad9959e6cd2be#npm:4.0.0-rc.2"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["fast-glob", "npm:3.2.11"],\
             ["micromatch", "npm:4.0.5"],\
@@ -15821,17 +15821,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["clipanion", [\
-        ["npm:3.2.1", {\
-          "packageLocation": "./.yarn/cache/clipanion-npm-3.2.1-fc9187f56c-448efd122e.zip/node_modules/clipanion/",\
+        ["npm:4.0.0-rc.2", {\
+          "packageLocation": "./.yarn/cache/clipanion-npm-4.0.0-rc.2-ad27d804c4-533a2a0fd2.zip/node_modules/clipanion/",\
           "packageDependencies": [\
-            ["clipanion", "npm:3.2.1"]\
+            ["clipanion", "npm:4.0.0-rc.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:177533489bf1b88f277a61d8958d58e17ba99d4fa4e0702b7ffe40db6eec17c450854df6347bb77be2b6f05708f58c9908d2a084b9a989c87e3d3ac07702f7d9#npm:3.2.1", {\
-          "packageLocation": "./.yarn/__virtual__/clipanion-virtual-e1ec152aaf/0/cache/clipanion-npm-3.2.1-fc9187f56c-448efd122e.zip/node_modules/clipanion/",\
+        ["virtual:d06e049a05b69a00c605caa5a9f205f42f27a245ff12ae23cf1b7617f5f4ffde333bffa8fdb383096a630bec19be43ac9a05e5d7366bc1dd729ad9959e6cd2be#npm:4.0.0-rc.2", {\
+          "packageLocation": "./.yarn/__virtual__/clipanion-virtual-2f14fec31a/0/cache/clipanion-npm-4.0.0-rc.2-ad27d804c4-533a2a0fd2.zip/node_modules/clipanion/",\
           "packageDependencies": [\
-            ["clipanion", "virtual:177533489bf1b88f277a61d8958d58e17ba99d4fa4e0702b7ffe40db6eec17c450854df6347bb77be2b6f05708f58c9908d2a084b9a989c87e3d3ac07702f7d9#npm:3.2.1"],\
+            ["clipanion", "virtual:d06e049a05b69a00c605caa5a9f205f42f27a245ff12ae23cf1b7617f5f4ffde333bffa8fdb383096a630bec19be43ac9a05e5d7366bc1dd729ad9959e6cd2be#npm:4.0.0-rc.2"],\
             ["@types/typanion", null],\
             ["typanion", "npm:3.12.1"]\
           ],\
@@ -27454,7 +27454,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/testing-library", "npm:0.0.13"],\
             ["@storybook/testing-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:1.3.0"],\
             ["@testing-library/react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:14.0.0"],\
-            ["@yarnpkg/sdks", "npm:3.0.0-rc.47"],\
+            ["@yarnpkg/sdks", "npm:3.0.0-rc.49"],\
             ["app-root-path", "npm:3.1.0"],\
             ["babel-loader", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:9.1.3"],\
             ["babel-plugin-macros", "npm:3.1.0"],\
@@ -40937,7 +40937,6 @@ function reportRequiredFilesToWatchMode(files) {
 }
 
 function applyPatch(pnpapi, opts) {
-  const defaultCache = {};
   let enableNativeHooks = true;
   process.versions.pnp = String(pnpapi.VERSIONS.std);
   const moduleExports = require$$0__default.default;
@@ -40957,62 +40956,13 @@ function applyPatch(pnpapi, opts) {
   }
   const originalModuleLoad = require$$0.Module._load;
   require$$0.Module._load = function(request, parent, isMain) {
-    if (!enableNativeHooks)
-      return originalModuleLoad.call(require$$0.Module, request, parent, isMain);
-    if (isBuiltinModule(request)) {
-      try {
-        enableNativeHooks = false;
-        return originalModuleLoad.call(require$$0.Module, request, parent, isMain);
-      } finally {
-        enableNativeHooks = true;
+    if (request === `pnpapi`) {
+      const parentApiPath = opts.manager.getApiPathFromParent(parent);
+      if (parentApiPath) {
+        return opts.manager.getApiEntry(parentApiPath, true).instance;
       }
     }
-    const parentApiPath = opts.manager.getApiPathFromParent(parent);
-    const parentApi = parentApiPath !== null ? opts.manager.getApiEntry(parentApiPath, true).instance : null;
-    if (parentApi === null)
-      return originalModuleLoad(request, parent, isMain);
-    if (request === `pnpapi`)
-      return parentApi;
-    const modulePath = require$$0.Module._resolveFilename(request, parent, isMain);
-    const isOwnedByRuntime = parentApi !== null ? parentApi.findPackageLocator(modulePath) !== null : false;
-    const moduleApiPath = isOwnedByRuntime ? parentApiPath : opts.manager.findApiPathFor(npath.dirname(modulePath));
-    const entry = moduleApiPath !== null ? opts.manager.getApiEntry(moduleApiPath) : { instance: null, cache: defaultCache };
-    const cacheEntry = entry.cache[modulePath];
-    if (cacheEntry) {
-      if (cacheEntry.loaded === false && cacheEntry.isLoading !== true) {
-        try {
-          cacheEntry.isLoading = true;
-          if (isMain) {
-            process.mainModule = cacheEntry;
-            cacheEntry.id = `.`;
-          }
-          cacheEntry.load(modulePath);
-        } finally {
-          cacheEntry.isLoading = false;
-        }
-      }
-      return cacheEntry.exports;
-    }
-    const module = new require$$0.Module(modulePath, parent != null ? parent : void 0);
-    module.pnpApiPath = moduleApiPath;
-    reportRequiredFilesToWatchMode([modulePath]);
-    entry.cache[modulePath] = module;
-    if (isMain) {
-      process.mainModule = module;
-      module.id = `.`;
-    }
-    let hasThrown = true;
-    try {
-      module.isLoading = true;
-      module.load(modulePath);
-      hasThrown = false;
-    } finally {
-      module.isLoading = false;
-      if (hasThrown) {
-        delete require$$0.Module._cache[modulePath];
-      }
-    }
-    return module.exports;
+    return originalModuleLoad.call(require$$0.Module, request, parent, isMain);
   };
   function getIssuerSpecsFromPaths(paths) {
     return paths.map((path) => ({
@@ -41080,7 +41030,7 @@ function applyPatch(pnpapi, opts) {
       const parentDirectory = (parent == null ? void 0 : parent.filename) != null ? npath.dirname(parent.filename) : null;
       const absoluteRequest = npath.isAbsolute(request) ? request : parentDirectory !== null ? npath.resolve(parentDirectory, request) : null;
       if (absoluteRequest !== null) {
-        const apiPath = parentDirectory === npath.dirname(absoluteRequest) && (parent == null ? void 0 : parent.pnpApiPath) ? parent.pnpApiPath : opts.manager.findApiPathFor(absoluteRequest);
+        const apiPath = parent && parentDirectory === npath.dirname(absoluteRequest) ? opts.manager.getApiPathFromParent(parent) : opts.manager.findApiPathFor(absoluteRequest);
         if (apiPath !== null) {
           issuerSpecs.unshift({
             apiPath,
@@ -42801,7 +42751,6 @@ function makeManager(pnpapi, opts) {
   const initialApiStats = opts.fakeFs.statSync(npath.toPortablePath(initialApiPath));
   const apiMetadata = /* @__PURE__ */ new Map([
     [initialApiPath, {
-      cache: require$$0.Module._cache,
       instance: pnpapi,
       stats: initialApiStats,
       lastRefreshCheck: Date.now()
@@ -42833,7 +42782,6 @@ function makeManager(pnpapi, opts) {
       }
     } else {
       apiMetadata.set(pnpApiPath, apiEntry = {
-        cache: {},
         instance: loadApiInstance(pnpApiPath),
         stats: opts.fakeFs.statSync(pnpApiPath),
         lastRefreshCheck: Date.now()
@@ -42903,19 +42851,16 @@ ${controlSegment}
     } while (curr !== PortablePath.root);
     return addToCacheAndReturn(start, curr, null);
   }
+  const moduleToApiPathCache = /* @__PURE__ */ new WeakMap();
   function getApiPathFromParent(parent) {
     if (parent == null)
       return initialApiPath;
-    if (typeof parent.pnpApiPath === `undefined`) {
-      if (parent.filename !== null) {
-        return parent.pnpApiPath = findApiPathFor(parent.filename);
-      } else {
-        return initialApiPath;
-      }
-    }
-    if (parent.pnpApiPath !== null)
-      return parent.pnpApiPath;
-    return null;
+    let apiPath = moduleToApiPathCache.get(parent);
+    if (typeof apiPath !== `undefined`)
+      return apiPath;
+    apiPath = parent.filename ? findApiPathFor(parent.filename) : null;
+    moduleToApiPathCache.set(parent, apiPath);
+    return apiPath;
   }
   return {
     getApiPathFromParent,
