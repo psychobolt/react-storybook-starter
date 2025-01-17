@@ -13838,12 +13838,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flow-bin@npm:0.176.2":
-  version: 0.176.2
-  resolution: "flow-bin@npm:0.176.2"
+"flow-bin@npm:0.259.1":
+  version: 0.259.1
+  resolution: "flow-bin@npm:0.259.1"
   bin:
     flow: cli.js
-  checksum: 3ae2348f2fa5b4fd65858acb1a8171ef293a0c300dab545234b52d4cd18bb1ec0046087b501e2866ab2bd5bcf4ad5482827f96ba981dc7eae1cf486aab872410
+  checksum: 1c8a21bfc93c83ab41b2858bab70945633e93b078e726efbc9a8ded7ff9becd790bfcc41dc9ef49f9a77d717e0850d78318bd269931e138f063e4b11d8cd9715
   languageName: node
   linkType: hard
 
@@ -21016,7 +21016,7 @@ __metadata:
     eslint-plugin-react: 7.32.2
     eslint-plugin-react-hooks: 4.6.0
     eslint-plugin-storybook: 0.6.13
-    flow-bin: 0.176.2
+    flow-bin: 0.259.1
     flow-typed: 3.8.0
     http-server: 14.1.1
     jest: 27.5.1
