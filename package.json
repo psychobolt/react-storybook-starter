@@ -43,7 +43,7 @@
     "@storybook/react": "6.5.16",
     "@storybook/test-runner": "0.13.0",
     "@storybook/testing-library": "0.0.13",
-    "@storybook/testing-react": "1.3.0",
+    "@storybook/testing-react": "2.0.1",
     "@testing-library/react": "14.0.0",
     "@yarnpkg/sdks": "3.0.0-rc.49",
     "app-root-path": "3.1.0",
