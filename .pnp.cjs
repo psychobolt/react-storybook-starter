@@ -68,7 +68,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:6.5.16"],\
             ["@storybook/test-runner", "npm:0.13.0"],\
             ["@storybook/testing-library", "npm:0.0.13"],\
-            ["@storybook/testing-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:1.3.0"],\
+            ["@storybook/testing-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:2.0.1"],\
             ["@testing-library/react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:14.0.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.49"],\
             ["app-root-path", "npm:3.1.0"],\
@@ -11095,39 +11095,39 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@storybook/testing-react", [\
-        ["npm:1.3.0", {\
-          "packageLocation": "./.yarn/cache/@storybook-testing-react-npm-1.3.0-56c6fe715e-f7da948bfc.zip/node_modules/@storybook/testing-react/",\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/@storybook-testing-react-npm-2.0.1-d785899b1b-efc32621c0.zip/node_modules/@storybook/testing-react/",\
           "packageDependencies": [\
-            ["@storybook/testing-react", "npm:1.3.0"]\
+            ["@storybook/testing-react", "npm:2.0.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:1.3.0", {\
-          "packageLocation": "./.yarn/__virtual__/@storybook-testing-react-virtual-a258bf1272/0/cache/@storybook-testing-react-npm-1.3.0-56c6fe715e-f7da948bfc.zip/node_modules/@storybook/testing-react/",\
+        ["virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:2.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/@storybook-testing-react-virtual-616433686a/0/cache/@storybook-testing-react-npm-2.0.1-d785899b1b-efc32621c0.zip/node_modules/@storybook/testing-react/",\
           "packageDependencies": [\
-            ["@storybook/testing-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:1.3.0"],\
-            ["@storybook/addons", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:6.5.16"],\
-            ["@storybook/client-api", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:6.5.16"],\
-            ["@storybook/csf", "npm:0.0.2--canary.87bc651.0"],\
-            ["@storybook/preview-web", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:6.5.16"],\
+            ["@storybook/testing-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:2.0.1"],\
+            ["@storybook/client-logger", null],\
+            ["@storybook/csf", "npm:0.1.0"],\
+            ["@storybook/preview-api", null],\
             ["@storybook/react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:6.5.16"],\
+            ["@storybook/types", null],\
             ["@types/react", null],\
-            ["@types/storybook__addons", null],\
-            ["@types/storybook__client-api", null],\
-            ["@types/storybook__preview-web", null],\
+            ["@types/storybook__client-logger", null],\
+            ["@types/storybook__preview-api", null],\
             ["@types/storybook__react", null],\
+            ["@types/storybook__types", null],\
             ["react", "npm:18.2.0"]\
           ],\
           "packagePeers": [\
-            "@storybook/addons",\
-            "@storybook/client-api",\
-            "@storybook/preview-web",\
+            "@storybook/client-logger",\
+            "@storybook/preview-api",\
             "@storybook/react",\
+            "@storybook/types",\
             "@types/react",\
-            "@types/storybook__addons",\
-            "@types/storybook__client-api",\
-            "@types/storybook__preview-web",\
+            "@types/storybook__client-logger",\
+            "@types/storybook__preview-api",\
             "@types/storybook__react",\
+            "@types/storybook__types",\
             "react"\
           ],\
           "linkType": "HARD"\
@@ -27281,7 +27281,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:6.5.16"],\
             ["@storybook/test-runner", "npm:0.13.0"],\
             ["@storybook/testing-library", "npm:0.0.13"],\
-            ["@storybook/testing-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:1.3.0"],\
+            ["@storybook/testing-react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:2.0.1"],\
             ["@testing-library/react", "virtual:68e38799c259a7a717699dc16c63ff0d07b8c72d266246725c08620e2a361b472a7f4482e58ffbb5f070532be40e1f43ca1455c86ae7f3031dcbbd8bfae3733c#npm:14.0.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.49"],\
             ["app-root-path", "npm:3.1.0"],\
